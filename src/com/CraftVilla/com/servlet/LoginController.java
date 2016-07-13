@@ -60,9 +60,9 @@ public class LoginController extends HttpServlet {
 		else
 		{
 			Dispatcher=request.getRequestDispatcher("login.jsp");
-			Dispatcher.include(request, response);
 			PrintWriter writer=response.getWriter();
-			writer.append("invalid credintial please enter valid user id and password");		
+			writer.append("invalid credintial please enter valid user id and password");
+			Dispatcher.include(request, response);
 			
 		
 		}

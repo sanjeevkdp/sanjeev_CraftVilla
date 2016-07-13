@@ -36,7 +36,9 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#">Service</a></li>
+					<ul class="nav navbar-nav navbar-right">
 					<li><a href="login.jsp">Login</a></li>
+					</ul>
 				</ul>
 			</div>
 		</div>

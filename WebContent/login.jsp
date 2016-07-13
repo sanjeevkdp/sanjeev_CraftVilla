@@ -27,9 +27,9 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#">Service</a></li>
-					<div class="pull-right">
+					<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a  href="#">Login</a></li>
-                     </div>
+				</ul>
 				</ul>
 			</div>
 		</div>
